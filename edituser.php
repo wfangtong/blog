@@ -42,8 +42,7 @@ if (!$db) {
 	<!-- 编号:<input type="hidden" name="id" value=<?php echo $id; ?>></input> -->
 
 	<!-- 方式2 -->
-	编号:<input style="background-color: #E2DEDE;" type="text" readonly="readonly" name="id" value=<?php echo $id; ?>></input>
-	<br/>
+	
 	<div class="divtitle">标题:<input type="text" name="title" value=<?php echo $row["title"] ?>></input></div>
 
 	<div class="content">简介:<input type="text" name="content" value=<?php echo $row["content"]; ?>></input></div>

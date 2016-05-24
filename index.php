@@ -12,7 +12,7 @@ body{font-size: 12px;}
 <a href="blogadd.php">撰写博客</a>
 	<table class="table table-striped table-bordered table-hover table-condensed">
 <tr>
-<th>编号</th>
+
 <th>标题</th>
 <th>简介</th>
 <th>发表时间</th>
@@ -49,7 +49,7 @@ if (!$db) {
 
 		while ($row=mysql_fetch_assoc($result)) {
 			echo "<tr>";
-            echo "<td>" . $row["id"] . "</td>";
+            
 			echo "<td>" . $row["title"] . "</td>";
 			echo "<td>" . $row["content"] . "</td>";
 			echo "<td>" . $row["ptime"] . "</td>";

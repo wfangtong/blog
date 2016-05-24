@@ -19,7 +19,7 @@ if (!$db) {
 	if (!$result) {
 		echo "删除失败";
 	} else {
-		header("location:1.php");
+		header("location:index.php");
 	}
 }
 mysql_close($db);

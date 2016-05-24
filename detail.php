@@ -22,8 +22,7 @@ if (!$db) {
 		echo "查询失败";
 	} else {
 		$row = mysql_fetch_assoc($result);
-		echo "编号:" . $row["id"];
-		echo "<br/>";
+		
 
 		echo "标题:" . $row["title"];
 		echo "<br/>";
